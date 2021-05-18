@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.w2a.APITestingFramework.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Create Customer API Test(failed)">
+    <classes>
+      <class name="com.w2a.APITestingFramework.testcases.CreateCustomerTest">
+        <methods>
+          <include name="validateCreateCustomerAPIWithInValidSecretKey" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.w2a.APITestingFramework.testcases.CreateCustomerTest -->
+    </classes>
+  </test> <!-- Create Customer API Test(failed) -->
+  <test thread-count="5" verbose="0" name="Delete Customer API Test(failed)">
+    <classes>
+      <class name="com.w2a.APITestingFramework.testcases.DeleteCustomerTest2">
+        <methods>
+          <include name="validateDeleteCustomerAPI" invocation-numbers="1 0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.w2a.APITestingFramework.testcases.DeleteCustomerTest2 -->
+    </classes>
+  </test> <!-- Delete Customer API Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 7.482 s <<< FAILURE! - in TestSuite
+validateCreateCustomerAPIWithInValidSecretKey(com.w2a.APITestingFramework.testcases.CreateCustomerTest)  Time elapsed: 2.538 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at com.w2a.APITestingFramework.testcases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:41)
+
+validateDeleteCustomerAPI(com.w2a.APITestingFramework.testcases.DeleteCustomerTest2)  Time elapsed: 0.796 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.w2a.APITestingFramework.testcases.DeleteCustomerTest2.validateDeleteCustomerAPI(DeleteCustomerTest2.java:35)
+
+validateDeleteCustomerAPI(com.w2a.APITestingFramework.testcases.DeleteCustomerTest2)  Time elapsed: 1.558 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.w2a.APITestingFramework.testcases.DeleteCustomerTest2.validateDeleteCustomerAPI(DeleteCustomerTest2.java:35)
+
