@@ -15,6 +15,8 @@ public class CreateCustomerAPI extends BaseTest {
 		//Are you okay
 		//checking rebase
 		//finally
+		
+		//Automation Code
 		Response response = given().auth().basic(config.getProperty("validSecretKey"), "")
 							.formParam("name",  data.get("name"))		
 							.formParam("email", data.get("email"))
