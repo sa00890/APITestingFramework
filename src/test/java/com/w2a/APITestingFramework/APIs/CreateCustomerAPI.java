@@ -23,7 +23,7 @@ public class CreateCustomerAPI extends BaseTest {
 							.formParam("description", data.get("description"))
 							.formParam("address[postal_code]",data.get("address[postal_code]"))
 							.post(config.getProperty("customerAPIEndPoint"));
-		
+		//Can you handle this..stash
 			return response;
 		
 	}
