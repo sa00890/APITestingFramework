@@ -24,7 +24,7 @@ public class CreateCustomerAPI extends BaseTest {
 							.formParam("address[postal_code]",data.get("address[postal_code]"))
 							.post(config.getProperty("customerAPIEndPoint"));
 		//Can you handle this..stash
-		
+			//wasnt satisfied made the change again	
 		////Yes I can handle it ofcourse
 			return response;
 		
