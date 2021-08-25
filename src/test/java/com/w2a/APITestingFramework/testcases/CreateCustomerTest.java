@@ -18,6 +18,7 @@ import io.restassured.response.Response;
 
 public class CreateCustomerTest extends BaseTest {
 
+	//performing tests here
 	@Test(dataProviderClass = DataUtil.class, dataProvider = "data")
 	public void validateCreateCustomerAPIWithValidSecretKey(Hashtable<String, String> data) {
 
